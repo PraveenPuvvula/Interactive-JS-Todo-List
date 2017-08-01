@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+  	<meta name="viewport" content="width-device-width, initial-scale=1">
+  	<link rel="stylesheet" href="css/bootstrap.min.css">
+  	<link rel="stylesheet" type="text/css" href="css/style.css">
+  	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<title>test</title>
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12 text-uppercase text-center header">
+			<h1>Todo List</h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-2">
+			<button type="button" class="btn btn-default" onclick="handlers.addTodo()">Add todo</button>
+		</div>
+		<div class="col-md-10">
+			<input type="text" id="addTodoTextInput" class="form-control" placeholder="Enter a new item in your todo list">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-2">
+			<button type="button" class="btn btn-default" onclick="handlers.changeTodo()">Change todo</button>
+		</div>
+		<div class="col-md-5">
+			<input type="number" class="form-control" id="changeTodoPositionInput" placeholder="Enter the position of todo you want to change">
+		</div>
+		<div class="col-md-5">
+			<input type="text" class="form-control" id="changeTodoTextInput" placeholder="Enter the new item in the todo list">
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-2">
+			<button type="button" class="btn btn-default" onclick="handlers.toggleCompleted()">Toggle Completed</button>
+		</div>
+		<div class="col-md-10">
+			<input type="number" class="form-control" id="toggleCompletedPositionInput" placeholder="Enter the position of item you want to toggle as Completed">
+		</div>
+	</div>
+	<ul>
+
+	</ul>
+	<div class="row">
+		<div class="col-md-12">
+			<button type="button" class="btn btn-info btn-block" onclick="handlers.toggleAll()">Toggle All</button>
+		</div>
+	</div>
+</div>
+<script src="todo.js"></script>
+</body>
+</html>

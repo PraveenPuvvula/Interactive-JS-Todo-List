@@ -1,0 +1,89 @@
+* {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	background-color: #232526;
+	color: #FFFFFF;
+}
+.row {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+h1{
+	font-family: 'Lemonada', cursive;
+}
+
+input:placeholder-shown {
+  border: 2px solid #F7F0F5;
+}
+
+input::-webkit-input-placeholder{
+	font-weight: bold;
+	color: red;
+	font-family: 'Lemonada', cursive;
+}
+input:-moz-placeholder {
+    color: red;
+    font-weight: bold;
+    font-family: 'Lemonada', cursive;
+}
+input:-ms-input-placeholder {
+    color: red;
+    font-weight: bold;
+    font-family: 'Lemonada', cursive;
+}
+body{
+	background-color: #232526;
+}
+
+.btn{
+	font-family: 'Lemonada', cursive;
+	background: #232526;
+	border: none;
+	color: #FFFFFF;
+	padding: 5%;
+	font-weight: 100;
+	color: #788585;
+}
+.btn-default{
+	font-family: 'Lemonada', cursive;
+	background: #232526;
+	border: none;
+	color: #FFFFFF;
+	padding: 5%;
+	font-weight: 100;
+	color: #788585;
+}
+
+.btn-block{
+	padding:1%;
+	font-weight: 100;
+	color: #788585;
+}
+
+ul{
+	padding: 2%;
+	font-family: 'Lemonada', cursive;
+}
+
+button{
+	padding: 1%;
+	border: none;
+	color: #788585;
+}
+.col-md-2{
+	padding: 2%;
+}
+.col-md-5{
+	padding: 2%;
+}
+
+.col-md-10{
+	padding: 2%;
+}
+
+.col-md-12{
+	padding: 2%;
+}
